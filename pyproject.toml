@@ -1,0 +1,12 @@
+[project]
+name = "funnel-analytics"
+version = "1.0.0"
+description = "E-commerce conversion funnel analytics: GA4 / UCI → DuckDB → Streamlit"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
